@@ -12,7 +12,7 @@
     border-bottom: 2px solid brown;
 }
 
-.Table{
+.box{
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 16px;
@@ -26,6 +26,9 @@
 .box-imges img{
     display: block;
     width: 100%;
-    height: auto;
+   
     
+}
+.box-imges h4{
+    text-align: center;
 }

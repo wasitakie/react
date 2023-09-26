@@ -1,18 +1,14 @@
-import { useState } from "react"
-const Navber = ({})=>{
-        const [text,setText] = useState('hello')
+const Navber = () => {
+  return (
+    <nav className="nav">
+      <div className="nav-menu">
+        <ul>
+          <li>Home</li>
+          <li></li>
+        </ul>
+      </div>
+    </nav>
+  );
+};
 
-    return(
-    <>
-        <div>navbar
-            <button onClick={()=>setText()}>Click</button>
-            
-            {text}
-            
-        </div>
-        
-    </>
-    )
-}
-
-export default Navber
+export default Navber;

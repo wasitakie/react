@@ -1,0 +1,43 @@
+.post{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+.bg-show{
+    background: #302f2fc9;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+     
+}
+.content{
+    position: relative;
+    max-width: 800px;
+    background-color: black;
+   margin: auto ;
+    
+}
+.content img{
+    display: block;
+    max-width: 100%;
+    max-height: calc(100vh - 120px);
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.content h4{
+    color: white;
+    text-align: center;
+    
+}
